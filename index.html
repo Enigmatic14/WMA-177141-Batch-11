@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label>Name </label>
+        <input type="text" name="employee name" maxlength="50" size="30" placeholder="enter your name"><br><br>
+        <label>Password </label><input type="password" name="password" placeholder="enter password"><br><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male" checked>Male
+        <input type="radio" name="gender" value="female">Female<br><br>
+        <label>City </label>
+        <select>
+            <option name="city" value="karachi">Karachi</option>
+            <option name="city" value="lahore">Lahore</option>
+            <option name="city" value="islamabad" selected>Islamabad</option>
+            <option name="city" value="islamabad">Quetta</option>
+
+        </select>
+    </fieldset><br>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label>Mobile Number </label>
+        <input type="number" value="mobile" placeholder="enter mobile number">
+        <label>Whatsapp Number </label>
+        <input type="number" value="whatsapp" placeholder="enter whatsapp number">
+        <label>Email </label>
+        <input type="email" value="email" placeholder="enter email address">
+        <label>Address </label>
+        <input type="text" value="address" placeholder="enter your address">
+    </fieldset><br>
+    <fieldset>
+        <legend>Education</legend>
+        <label>Qualification </label>
+        <input type="checkbox" name="qualification" value="masters">Post Graduate
+        <input type="checkbox" name="qualification" value="graduate">Graduate
+        <input type="checkbox" name="qualification" value="highschool">High School<br><br>
+        <label>Field of Study</label>
+        <select name="field" >
+            <option value="engineering">Engineering</option>
+            <option value="Medical">Medical</option>
+            <option value="arts">Arts</option>
+            <option value="commerce">Commerce</option>
+
+        </select>
+
+    </fieldset>
+
+</body>
+</html>
